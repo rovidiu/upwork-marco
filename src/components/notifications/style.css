@@ -1,0 +1,125 @@
+.notifications-wrapper {
+  position: fixed;
+  z-index: 10002;
+  width: 100%;
+}
+.notifications-wrapper .notifications-tc {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.notifications-wrapper .cp-content-container,
+.notifications-wrapper .cp-admin-content-container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.notifications-wrapper .cp-content-container.parallax-img,
+.notifications-wrapper .cp-admin-content-container.parallax-img {
+  margin-top: 65vh;
+  background-color: white;
+}
+.notifications-wrapper .notification {
+  width: 100%;
+  margin-bottom: 8px;
+  display: grid;
+  display: -ms-grid;
+  grid-template-rows: [title] min-content [message] min-content [end];
+  grid-template-columns: [message] 1fr [actions] min-content [end];
+  -ms-grid-columns: min-content min-content;
+  -ms-grid-rows: 1fr min-content;
+  grid-column-gap: 8px;
+  grid-row-gap: 4px;
+  padding: 16px;
+  border-radius: 3px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  -webkit-transform: translate3d(0, 0, 0);
+  -transform: translate3d(0, 0, 0);
+  will-change: transform, opacity;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.notifications-wrapper .notification-visible {
+  opacity: 1;
+}
+.notifications-wrapper .notification-hidden {
+  opacity: 0;
+}
+.notifications-wrapper .notification-error,
+.notifications-wrapper .notification-warning {
+  background-color: white;
+  border-color: white;
+}
+.notifications-wrapper .notification-error .notification-title,
+.notifications-wrapper .notification-warning .notification-title {
+  color: black;
+  font-size: 14px;
+  font-family: 'Raleway';
+  grid-row-start: title;
+  grid-column-start: message;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  font-weight: 400;
+}
+.notifications-wrapper .notification-error .notification-message,
+.notifications-wrapper .notification-warning .notification-message {
+  color: black;
+  grid-row-start: message;
+  grid-column-start: message;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  font-weight: 300;
+}
+.notifications-wrapper .notification-success {
+  background-color: #3DCC4A;
+  border-color: #2DC20B;
+}
+.notifications-wrapper .notification-info {
+  background-color: #0E6DCD;
+  border-color: #0E6DCD;
+}
+.notifications-wrapper .notification-title {
+  color: white;
+  font-size: 14px;
+  font-family: 'Raleway';
+  grid-row-start: title;
+  grid-column-start: message;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  font-weight: 400;
+}
+.notifications-wrapper .notification-message {
+  color: white;
+  font-family: 'Muli';
+  font-size: 12px;
+  grid-row-start: message;
+  grid-column-start: message;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  font-weight: 300;
+}
+.notifications-wrapper .notification-dismiss {
+  background-image: url("../../assets/images/close.svg");
+  background-size: contain;
+  width: 18px;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  border: none;
+  color: transparent;
+  cursor: pointer;
+  grid-row-start: title;
+  grid-column-start: actions;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+.cp-cordova-app .notifications-wrapper {
+  padding-top: constant(safe-area-inset-top);
+  /* iOS 11.0 */
+  padding-top: env(safe-area-inset-top);
+  /* iOS 11.2 */
+}

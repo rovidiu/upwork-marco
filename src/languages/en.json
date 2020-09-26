@@ -1,0 +1,32 @@
+{
+  "routers": {
+    "landing": "welcome"
+  },
+  "landing": {
+    "title": "Welcome to UpWork Trial Assignment - Marco",
+    "input": "Input",
+    "output": "Output"
+  },
+  "input": {
+    "user": "User",
+    "name": "Name (LastName FirstName)",
+    "gender": "Gender",
+    "age": "Age",
+    "email": "Email address",
+    "country": "Country",
+    "city": "City",
+    "req": {
+      "required": "This field is required.",
+      "alpha": "This field must contain alpha characters",
+      "email": "Wrong email address format."
+    },
+    "submit": "Continue",
+    "data": "Data",
+    "upload": "Upload csv file",
+    "date": "Date",
+    "input_csv": "Input CSV data",
+    "fulltext": "Fulltext search",
+    "sortBy": "Sort by",
+    "sortOrder": "Order"
+  }
+}
