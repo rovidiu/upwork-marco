@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/upwork-marco/static/css/main.55c416ca.chunk.css",
+    "main.js": "/upwork-marco/static/js/main.654eed52.chunk.js",
+    "main.js.map": "/upwork-marco/static/js/main.654eed52.chunk.js.map",
+    "runtime-main.js": "/upwork-marco/static/js/runtime-main.d5e0a9d9.js",
+    "runtime-main.js.map": "/upwork-marco/static/js/runtime-main.d5e0a9d9.js.map",
+    "static/css/2.6d52cc7f.chunk.css": "/upwork-marco/static/css/2.6d52cc7f.chunk.css",
+    "static/js/2.f81f4c2b.chunk.js": "/upwork-marco/static/js/2.f81f4c2b.chunk.js",
+    "static/js/2.f81f4c2b.chunk.js.map": "/upwork-marco/static/js/2.f81f4c2b.chunk.js.map",
+    "index.html": "/upwork-marco/index.html",
+    "precache-manifest.a1ccb8027d4cde982d44d8a8d6c245ba.js": "/upwork-marco/precache-manifest.a1ccb8027d4cde982d44d8a8d6c245ba.js",
+    "service-worker.js": "/upwork-marco/service-worker.js",
+    "static/css/2.6d52cc7f.chunk.css.map": "/upwork-marco/static/css/2.6d52cc7f.chunk.css.map",
+    "static/css/main.55c416ca.chunk.css.map": "/upwork-marco/static/css/main.55c416ca.chunk.css.map",
+    "static/js/2.f81f4c2b.chunk.js.LICENSE.txt": "/upwork-marco/static/js/2.f81f4c2b.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/upwork-marco/static/media/close.697eab48.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5e0a9d9.js",
+    "static/css/2.6d52cc7f.chunk.css",
+    "static/js/2.f81f4c2b.chunk.js",
+    "static/css/main.55c416ca.chunk.css",
+    "static/js/main.654eed52.chunk.js"
+  ]
+}
