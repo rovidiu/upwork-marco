@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08830c888cffb271ca10050d987c18c4",
+    "revision": "7baa796bdd483e5b9c8297560c0811ea",
     "url": "/upwork-marco/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/upwork-marco/static/css/2.6d52cc7f.chunk.css"
   },
   {
-    "revision": "6c4be71457aa73162695",
+    "revision": "cf6f164f78f59a93dad4",
     "url": "/upwork-marco/static/css/main.55c416ca.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/upwork-marco/static/js/2.f81f4c2b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c4be71457aa73162695",
-    "url": "/upwork-marco/static/js/main.b4dc9b64.chunk.js"
+    "revision": "cf6f164f78f59a93dad4",
+    "url": "/upwork-marco/static/js/main.0799528b.chunk.js"
   },
   {
     "revision": "c9ebae1532cf51eae7c2",
