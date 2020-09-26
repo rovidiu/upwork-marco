@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/upwork-marco/precache-manifest.a1ccb8027d4cde982d44d8a8d6c245ba.js"
+  "/upwork-marco/precache-manifest.491a283080be6eacf260f27ebdece93c.js"
 );
 
 self.addEventListener('message', (event) => {
