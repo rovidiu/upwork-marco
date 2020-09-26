@@ -20,8 +20,6 @@ export const initialState = {
 }
 
 export default (state = initialState, { type, payload }) => {
-  console.log('reducer', type, payload)
-  
   switch (type) {
     case SET_CURENT_INPUT:
       return {

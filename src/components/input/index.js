@@ -214,7 +214,6 @@ class InputContainer extends React.Component {
                 name='gender'
                 classNamePrefix="select"
                 options={genderOptions}
-                value={gender}
                 onChange={(e) => this.onChangeSelect(e, 'gender')}
                 onBlur={() => this.validator.showMessageFor('gender')}
                 placeholder={messages.input.gender}
@@ -229,7 +228,6 @@ class InputContainer extends React.Component {
                 name='age'
                 classNamePrefix="select"
                 options={AGE}
-                value={age}
                 onChange={(e) => this.onChangeSelect(e, 'age')}
                 onBlur={() => this.validator.showMessageFor('age')}
                 placeholder={messages.input.age}
@@ -261,7 +259,6 @@ class InputContainer extends React.Component {
                 name='country'
                 classNamePrefix="select"
                 options={countriesOptions}
-                value={country}
                 onChange={(e) => this.onChangeSelect(e, 'country')}
                 onBlur={() => this.validator.showMessageFor('country')}
                 placeholder={messages.input.country}
@@ -276,7 +273,6 @@ class InputContainer extends React.Component {
                 name='city'
                 classNamePrefix="select"
                 options={citiesOptions}
-                value={city}
                 onChange={(e) => this.onChangeSelect(e, 'city')}
                 onBlur={() => this.validator.showMessageFor('city')}
                 placeholder={messages.input.city}

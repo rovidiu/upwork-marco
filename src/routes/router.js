@@ -17,6 +17,7 @@ const createRoutes = (store) => {
 
     routes = routes.concat([
       <PublicRoute key={`${locale}-home-route`} {...props} exact path={`/${locale}`} component={Landing} />,
+      <PublicRoute key={`${locale}-home-route`} {...props} exact path={`/upwork-marco`} component={Landing} />,
     ])
   })
 
@@ -27,6 +28,7 @@ const routes = (history, store) => (
   <Router history={history}>
     <Switch>
       <PublicRoute exact path="/" component={Landing} />,
+      <PublicRoute exact path="/upwork-marco" component={Landing} />,
       {createRoutes(store)}
       <PublicRoute exact path="*" component={NotFound} />,
     </Switch>
